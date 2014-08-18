@@ -1,5 +1,9 @@
 # Mandrake
 
+[![Build Status](https://travis-ci.org/namusyaka/mandrake.svg)](https://travis-ci.org/namusyaka/mandrake)
+[![Gem Version](https://badge.fury.io/rb/mandrake.svg)](http://badge.fury.io/rb/mandrake)
+[![Code Climate](https://codeclimate.com/github/namusyaka/mandrake/badges/gpa.svg)](https://codeclimate.com/github/namusyaka/mandrake)
+
 Mandrake loads middlewares conditionally, and it provides two options and DSL for setting conditions.
 If you use Mandrake, you can avoid executing unnecessary middlewares by setting conditions.
 
