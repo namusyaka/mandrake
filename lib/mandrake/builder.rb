@@ -21,7 +21,7 @@ module Mandrake
       app = @map ? generate_map(@run, @map) : @run
       fail "missing run or map statement" unless app
       app = translator.translate.reverse.inject(app) do |application, middleware|
-        middleware.call(application)
+        middleware[application]
       end
       @warmup.call(app) if @warmup
       app
