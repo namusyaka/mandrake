@@ -109,6 +109,8 @@ module Mandrake
           instance_eval("def valid?; #{condition} end")
         end
       end
+
+      private :add_validator
     end
   end
 end
